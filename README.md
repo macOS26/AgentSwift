@@ -1,6 +1,6 @@
-# XCF-Swift Swift Code Analyer Swift Package Library
+# AgentSwift
 
-A static analysis tool for Swift code that leverages the Swift Syntax package to detect code issues, style problems, and suggest improvements.
+A Swift code analysis and refactoring toolkit built on SwiftSyntax. Detects code issues, style problems, and suggests improvements.
 
 ## Features
 
