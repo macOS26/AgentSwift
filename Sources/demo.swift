@@ -25,7 +25,7 @@ func createDemoFile() throws -> String {
         print(forcedValue)
         
         let dict: [String: Any] = ["key": "value"]
-        let forced = dict["missing"] as! String  // Forced cast
+        let forced = dict["missing"] as? String ?? ""  // Safe cast with default
     }
 
     // Unreachable code example
